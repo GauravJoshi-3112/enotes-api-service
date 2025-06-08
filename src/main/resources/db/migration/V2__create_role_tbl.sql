@@ -1,0 +1,5 @@
+-- Role Table
+CREATE TABLE IF NOT EXISTS role_tbl(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
